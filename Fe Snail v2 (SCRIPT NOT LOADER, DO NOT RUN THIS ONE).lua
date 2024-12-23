@@ -63,7 +63,7 @@ local SnailPartsFolder = Instance.new("Folder", workspace)
 -- Camera focus
 local CameraPart = Instance.new("Part", SnailPartsFolder)
 CameraPart.Anchored = true
-CameraPart.Transparency = 0
+CameraPart.Transparency = 1
 CameraPart.Size = Vector3.new(1.5,1.5,1.5)
 CameraPart.Color = Color3.fromRGB(255, 170, 0)
 CameraPart.CanCollide = false
